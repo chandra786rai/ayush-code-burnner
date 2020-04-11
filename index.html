@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sitepoint</title>
+
+<style>
+
+body{
+font-family: Roboto, sans-serif;
+}
+
+.tab {
+  overflow: hidden;
+  height:30px;
+  background-color: #06256e;
+  }
+
+.search{
+border: 1px solid rgb(59, 59, 59);
+height:20px;
+width:250px;
+    display: inline-block;
+    right: 600px;
+    top: 60px;
+    position: absolute;
+
+}
+
+.ch{border: 1px solid white;
+    display: inline-block;
+    right:420px;
+    top: 59px;
+    position: absolute;
+    }
+a{
+text-decoration:none;
+color:white;}
+
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: 0.03px solid;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: 0.3s;
+  color: white;
+  font-size: 14px;
+}
+
+.tab button:hover {
+  background-color: #0000dd;
+}
+
+.tab button:active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.main-container1{
+display:grid;
+grid-template-columns:250px 1000px 250px;
+grid-template-rows:800px;
+grid-gap:10px;
+}
+
+.left-bar{
+grid-column-start:1;
+grid-column-end:2;
+grid-row-start:1;
+grid-row-end:4;
+}
+
+.center{
+grid-column-start:2;
+grid-column-end:3;
+grid-row-start:1;
+grid-row-end:4;
+}
+
+.right-bar{
+grid-column-start:3;
+grid-column-end:4;
+grid-row-start:1;
+grid-row-end:4;
+}
+.img1{
+width: 10px;
+margin: 0px 0px 0px 0px;
+}
+</style>
+<link rel="stylesheet" href="C:\Users\navis\Desktop\bootstrap-4.4.1-dist\bootstrap-4.4.1-dist\css.css">
+</head>
+<body>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNGFMzu6tRcB2DmyLofBttbFn9K9qcyDT2wAmo6jl0EfYNXhIf&amp;s" style="margin-top: 0px; margin-bottom: 0px;" width="300" height="120" >
+<div style="float:right">
+<input type="text" class="search" id="search" value="">
+<div class="ch"><button >Search</button>
+<a style="color:blue" height="50px" width="50px" ><u>Advance Search</u></a><br>
+</div>
+
+<div class="tab">
+<div class="containerbuttons">
+  <button class="tablinks" ><a href="C:\Users\chand\Desktop\web chutiya\CSE_326_project.html">Home</a></button>
+  <button><a href="doc/a1.html">Articles</a></button>
+  <button><a href="doc/a2.html">Books</a></button>
+  <button><a href="doc/a3.html">Kits</a></button>
+  <button><a href="doc/a4.html">Videos</a></button>
+  <button><a href="doc/a5.html">Blogs</a></button>
+  <button><a href="doc/a6.html">Contests</a></button>
+  <button><a href="doc/a7.html">Marketplace</a></button>
+  <button><a href="doc/a8.html">Forums</a></button>
+  <button><a href="doc/a9.html">Reference</a></button>
+</div>
+</div>
+
+<br>
+<div class="container-fluid main-container1">
+<fieldset>
+<legend align="Right">Topics</legend>
+<div class="container-fluid left-bar">
+<h3><b><a style="color:blue"><u>Before Your Code</u></a></b></h3>
+<ul style="list-style-type:square">
+<li><a style="color:blue"><u>Domain Names</u></a></li><br>
+<li><a style="color:blue"><u>Hosting</u></a></li><br>
+<li><a style="color:blue"><u>Site Planning</u></a></li><br>
+<li><a style="color:blue"><u>Legal Issues</u></a></li><br>
+<li><a style="color:blue"><u>Privacy and Trust</u></a></li><br>
+</ul><hr>
+<h3><b><a style="color:blue"><u>Design and Layout</u></a></b></h3>
+<ul style="list-style-type: square">
+<li><a style="color:blue"><u>Accessibility</u></a></li><br>
+<li><a style="color:blue"><u>Design Principles</u></a></li><br>
+<li><a style="color:blue"><u>Design Practice</u></a></li><br>
+<li><a style="color:blue"><u>Design Tips and Tricks</u></a></li><br>
+<li><a style="color:blue"><u>Flash Tutorials</u></a></li><br>
+<li><a style="color:blue"><u>Usability and Information Artitecture</u></a></li><br>
+</ul><hr>
+<h3><b><a style="color:blue"><u>Client-side Coding</u></a></b></h3>
+<ul style="list-style-type: square">
+<li><a style="color:blue"><u>Adobe AIR Tutorials</u></a></li><br>
+<li><a style="color:blue"><u>HTML and XHTML Tutorials</u></a></li><br>
+</ul>
+</div>
+</fieldset>
+<fieldset>
+<legend align="Right">Codeburner - Reference Tool for Web Development</legend>
+<div class="container-fluid center">
+<a style="color:blue"><u>Home</u></a> - CodeBurner<hr><br>
+<img src="http://www.techyard.net/wp-content/uploads/imgs/codeburner.jpg" height="90px" width="320px"><br><br>
+<b><h3>CodeBurner makes valuable reference material for HTML and CSS available right in your browser.</h3></b><br><br>
+&emsp;
+CodeBurner is a suite of tools for web developers, that provide reference material for HTML and CSS, integrated with a range of<br>
+&emsp;
+popular  development and environment.<br><br>
+&emsp;
+&nbsp;
+<ol type="1">
+<li><b>Install CodeBurner</b></li><br>
+
+&nbsp;
+<li><b>Type an HTML element or CSS property in the search field, or click an item on the page</b></li><br>
+
+&nbsp;
+<li><b>View browser compatibility info, syntax, code samples and more!</b></li>
+</ol>
+</div>
+</fieldset>
+<fieldset>
+<legend align="Right">Twitter Buzz</legend>
+<div class="container-fluid right-bar">
+<br>
+<center><img src="https://lh3.googleusercontent.com/ptA7_CW8BZgR1HUngoLWolVQJbRruWJteK5Ika6s74LpPIC4tCBa2359HqkkqwHpSUnP2zg=s170" height="80px" width="170px"><br><br>
+<a style="color:blue"><u>Do it for your Tweets!</u></a></center><br>
+<ul style="list-style-type:disc">
+<li><a style="color:blue"><u>Kaynatsoft:</u></a>Grab CodeBurner AND receive a FREE PDF Book! from sitepointdotcom. <a style="color:blue"><u>link</u></a></li><br>
+<img src="photo\po.jpg" height="80px" width="70" >
+<li><a style="color:blue"><u>Unylogic:</u></a>Downloaded CodeBurner for Firefox from sitepointdotcom and scored a free PDF - what a killer dealt Grab yours now. <a href>link</a></li><br>
+<img src="photo\co.jpg"height="80px" width="70" >
+<li><a style="color:blue"><u>MeyhemDS:</u></a>Sitepoint have done itagain, with a great little Browser application for Firefox.<a style="color:blue"> <u>link</u></a></li>
+<img src="photo\do.jpg"height="80px" width="70" >
+</ul>
+</div>
+</fieldset>
+</div>
+</div>
+<script src="C:\Users\navis\Desktop\bootstrap-4.4.1-dist\bootstrap-4.4.1-dist\js.js"></script>
+<script src="C:\Users\navis\Desktop\bootstrap-4.4.1-dist\bootstrap-4.4.1-dist\js.js"></script>
+</body>
+</html>
